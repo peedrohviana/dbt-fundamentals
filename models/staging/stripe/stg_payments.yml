@@ -1,0 +1,11 @@
+version: 2 
+
+models:
+    - name: stg_payments
+      description: Staged payments data from jaffle shop app.
+      columns:
+        - name: payment_id
+          description: the id of the payment.
+          tests:
+            - unique
+         
